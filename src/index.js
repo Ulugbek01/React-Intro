@@ -2,12 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // import App from "./App";
-import Student, { Student as Test } from "./Student";
+import Student from "./Student";
 import reportWebVitals from "./reportWebVitals";
 // ReactDOM.render(<h1>{title} test</h1>, document.getElementById("root"));
 ReactDOM.render(
   <React.StrictMode>
-    <Test />
     <Student />
   </React.StrictMode>,
   document.getElementById("root")
